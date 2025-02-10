@@ -1,6 +1,7 @@
 function addToBackOfNew(arr, element) {
     // your code here
-    
+    let newArray = [...arr, element];
+    return newArray;
 }
 
 let input = [1, 2];
